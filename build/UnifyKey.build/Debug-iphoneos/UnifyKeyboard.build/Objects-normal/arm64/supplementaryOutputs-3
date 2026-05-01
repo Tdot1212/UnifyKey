@@ -1,0 +1,23 @@
+{
+  "/Users/toshyagishita/UnifyKey/Shared/Services/DeepSeekService.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/DeepSeekService.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/DeepSeekService.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/DeepSeekService.dia",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/DeepSeekService.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/DeepSeekService.swiftdeps"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Utilities/OfflineTranslator.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OfflineTranslator.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OfflineTranslator.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OfflineTranslator.dia",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OfflineTranslator.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OfflineTranslator.swiftdeps"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Utilities/UsageTracker.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/UsageTracker.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/UsageTracker.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/UsageTracker.dia",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/UsageTracker.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/UsageTracker.swiftdeps"
+  }
+}

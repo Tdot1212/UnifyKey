@@ -1,0 +1,279 @@
+{
+  "" : {
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/UnifyKeyboard-primary.dia",
+    "emit-module-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/UnifyKeyboard-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/UnifyKeyboard-primary-emit-module.dia",
+    "pch" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/UnifyKeyboard-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/UnifyKeyboard-primary.swiftdeps"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Constants.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/Constants.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/Constants.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/Constants.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/Constants.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/Constants.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/Constants.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/Constants.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/Constants~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Models/AIProvider.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIProvider.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIProvider.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIProvider.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIProvider.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIProvider.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIProvider.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIProvider.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIProvider~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Models/SupportedLanguage.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SupportedLanguage.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SupportedLanguage.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SupportedLanguage.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SupportedLanguage.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SupportedLanguage.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SupportedLanguage.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SupportedLanguage.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SupportedLanguage~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Models/TranslationResult.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationResult.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationResult.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationResult.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationResult.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationResult.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationResult.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationResult.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationResult~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Services/AIService.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIService.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIService.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIService.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIService.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIService.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIService.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIService.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIService~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Services/ClaudeService.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClaudeService.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClaudeService.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClaudeService.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClaudeService.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClaudeService.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClaudeService.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClaudeService.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClaudeService~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Services/DeepSeekService.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/DeepSeekService.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/DeepSeekService.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/DeepSeekService.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/DeepSeekService.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/DeepSeekService.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/DeepSeekService.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/DeepSeekService.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/DeepSeekService~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Services/GeminiService.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/GeminiService.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/GeminiService.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/GeminiService.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/GeminiService.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/GeminiService.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/GeminiService.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/GeminiService.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/GeminiService~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Services/OpenAIService.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OpenAIService.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OpenAIService.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OpenAIService.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OpenAIService.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OpenAIService.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OpenAIService.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OpenAIService.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OpenAIService~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Utilities/ClipboardMonitor.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClipboardMonitor.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClipboardMonitor.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClipboardMonitor.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClipboardMonitor.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClipboardMonitor.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClipboardMonitor.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClipboardMonitor.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClipboardMonitor~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Utilities/ConversationBuffer.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ConversationBuffer.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ConversationBuffer.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ConversationBuffer.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ConversationBuffer.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ConversationBuffer.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ConversationBuffer.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ConversationBuffer.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ConversationBuffer~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Utilities/KeychainHelper.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeychainHelper.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeychainHelper.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeychainHelper.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeychainHelper.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeychainHelper.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeychainHelper.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeychainHelper.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeychainHelper~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Utilities/KnowledgeBaseContext.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KnowledgeBaseContext.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KnowledgeBaseContext.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KnowledgeBaseContext.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KnowledgeBaseContext.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KnowledgeBaseContext.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KnowledgeBaseContext.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KnowledgeBaseContext.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KnowledgeBaseContext~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Utilities/LanguageDetector.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/LanguageDetector.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/LanguageDetector.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/LanguageDetector.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/LanguageDetector.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/LanguageDetector.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/LanguageDetector.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/LanguageDetector.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/LanguageDetector~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Utilities/OfflineTranslator.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OfflineTranslator.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OfflineTranslator.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OfflineTranslator.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OfflineTranslator.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OfflineTranslator.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OfflineTranslator.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OfflineTranslator.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/OfflineTranslator~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Utilities/PinyinEngine.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/PinyinEngine.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/PinyinEngine.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/PinyinEngine.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/PinyinEngine.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/PinyinEngine.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/PinyinEngine.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/PinyinEngine.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/PinyinEngine~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Utilities/SharedSettings.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SharedSettings.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SharedSettings.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SharedSettings.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SharedSettings.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SharedSettings.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SharedSettings.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SharedSettings.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SharedSettings~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Utilities/UsageTracker.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/UsageTracker.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/UsageTracker.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/UsageTracker.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/UsageTracker.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/UsageTracker.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/UsageTracker.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/UsageTracker.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/UsageTracker~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Utilities/WordSuggestionEngine.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/WordSuggestionEngine.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/WordSuggestionEngine.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/WordSuggestionEngine.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/WordSuggestionEngine.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/WordSuggestionEngine.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/WordSuggestionEngine.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/WordSuggestionEngine.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/WordSuggestionEngine~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/UnifyKeyboard/KeyboardViewController.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeyboardViewController.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeyboardViewController.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeyboardViewController.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeyboardViewController.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeyboardViewController.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeyboardViewController.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeyboardViewController.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeyboardViewController~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/UnifyKeyboard/Views/EditingBannerUIView.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/EditingBannerUIView.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/EditingBannerUIView.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/EditingBannerUIView.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/EditingBannerUIView.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/EditingBannerUIView.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/EditingBannerUIView.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/EditingBannerUIView.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/EditingBannerUIView~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/UnifyKeyboard/Views/KeyboardKeysUIView.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeyboardKeysUIView.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeyboardKeysUIView.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeyboardKeysUIView.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeyboardKeysUIView.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeyboardKeysUIView.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeyboardKeysUIView.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeyboardKeysUIView.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/KeyboardKeysUIView~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/UnifyKeyboard/Views/SavedPhrasesBarUIView.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SavedPhrasesBarUIView.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SavedPhrasesBarUIView.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SavedPhrasesBarUIView.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SavedPhrasesBarUIView.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SavedPhrasesBarUIView.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SavedPhrasesBarUIView.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SavedPhrasesBarUIView.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SavedPhrasesBarUIView~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/UnifyKeyboard/Views/SuggestionBarUIView.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SuggestionBarUIView.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SuggestionBarUIView.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SuggestionBarUIView.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SuggestionBarUIView.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SuggestionBarUIView.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SuggestionBarUIView.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SuggestionBarUIView.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/SuggestionBarUIView~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/UnifyKeyboard/Views/TranslationBarUIView.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationBarUIView.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationBarUIView.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationBarUIView.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationBarUIView.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationBarUIView.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationBarUIView.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationBarUIView.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationBarUIView~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/UnifyKeyboard/Views/TranslationPreviewCardUIView.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationPreviewCardUIView.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationPreviewCardUIView.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationPreviewCardUIView.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationPreviewCardUIView.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationPreviewCardUIView.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationPreviewCardUIView.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationPreviewCardUIView.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/TranslationPreviewCardUIView~partial.swiftmodule"
+  },
+  "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "/Users/toshyagishita/UnifyKey/Shared/Models/AIProvider.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIProvider.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIProvider.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIProvider.dia",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIProvider.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIProvider.swiftdeps"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Services/AIService.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIService.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIService.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIService.dia",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIService.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/AIService.swiftdeps"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Services/ClaudeService.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClaudeService.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClaudeService.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClaudeService.dia",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClaudeService.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClaudeService.swiftdeps"
+  }
+}

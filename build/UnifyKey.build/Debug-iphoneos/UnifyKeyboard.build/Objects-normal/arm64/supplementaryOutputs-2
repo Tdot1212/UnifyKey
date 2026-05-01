@@ -1,0 +1,23 @@
+{
+  "/Users/toshyagishita/UnifyKey/Shared/Constants.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/Constants.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/Constants.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/Constants.dia",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/Constants.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/Constants.swiftdeps"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Utilities/ClipboardMonitor.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClipboardMonitor.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClipboardMonitor.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClipboardMonitor.dia",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClipboardMonitor.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ClipboardMonitor.swiftdeps"
+  },
+  "/Users/toshyagishita/UnifyKey/Shared/Utilities/ConversationBuffer.swift" : {
+    "const-values" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ConversationBuffer.swiftconstvalues",
+    "dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ConversationBuffer.d",
+    "diagnostics" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ConversationBuffer.dia",
+    "object" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ConversationBuffer.o",
+    "swift-dependencies" : "/Users/toshyagishita/UnifyKey/build/UnifyKey.build/Debug-iphoneos/UnifyKeyboard.build/Objects-normal/arm64/ConversationBuffer.swiftdeps"
+  }
+}
