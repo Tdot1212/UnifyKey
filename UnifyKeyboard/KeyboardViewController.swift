@@ -105,6 +105,7 @@ class KeyboardViewController: UIInputViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         UserWordFrequency.shared.flush()
+        UserBigramPredictor.shared.flush()
     }
 
     override func textDidChange(_ textInput: UITextInput?) {
@@ -252,7 +253,17 @@ class KeyboardViewController: UIInputViewController {
             var results: [WordSuggestion] = []
 
             if before.hasSuffix(" ") || before.hasSuffix("\n") {
-                let predictions = NextWordPredictor.shared.predict(after: before)
+                let userPredictions = UserBigramPredictor.shared.predict(after: before)
+                let staticPredictions = NextWordPredictor.shared.predict(after: before)
+                var seen = Set<String>()
+                var merged: [String] = []
+                for p in userPredictions + staticPredictions {
+                    if !seen.contains(p) {
+                        merged.append(p)
+                        seen.insert(p)
+                    }
+                }
+                let predictions = Array(merged.prefix(3))
                 if !predictions.isEmpty {
                     results = predictions.map { WordSuggestion(word: $0, isAutocorrect: false) }
                 }
@@ -264,7 +275,17 @@ class KeyboardViewController: UIInputViewController {
             }
 
             if results.isEmpty {
-                let predictions = NextWordPredictor.shared.predict(after: before)
+                let userPredictions = UserBigramPredictor.shared.predict(after: before)
+                let staticPredictions = NextWordPredictor.shared.predict(after: before)
+                var seen = Set<String>()
+                var merged: [String] = []
+                for p in userPredictions + staticPredictions {
+                    if !seen.contains(p) {
+                        merged.append(p)
+                        seen.insert(p)
+                    }
+                }
+                let predictions = Array(merged.prefix(3))
                 results = predictions.map { WordSuggestion(word: $0, isAutocorrect: false) }
             }
 
@@ -411,6 +432,9 @@ class KeyboardViewController: UIInputViewController {
 
         let currentMessage = getCurrentMessage()
         guard !currentMessage.isEmpty else { return }
+
+        // Record the sentence the user just composed
+        UserBigramPredictor.shared.recordSentence(currentMessage)
 
         // Clear clipboard and tone state for new translation
         isClipboardTranslation = false
@@ -1630,6 +1654,14 @@ extension KeyboardViewController: KeyboardTouchSurfaceDelegate {
             touchSurface.updateShift(false)
         }
 
+        // Record sentence on terminal punctuation
+        if key == "." || key == "?" || key == "!" {
+            let message = getCurrentMessage()
+            if !message.isEmpty {
+                UserBigramPredictor.shared.recordSentence(message)
+            }
+        }
+
         if key.rangeOfCharacter(from: .letters) != nil {
             scheduleSuggestionUpdate()
         }
@@ -1706,6 +1738,13 @@ extension KeyboardViewController: KeyboardTouchSurfaceDelegate {
         if let lastWord = extractLastWord(from: localTextCache) {
             UserWordFrequency.shared.recordWord(lastWord)
         }
+
+        // Record what was typed before pressing return
+        let message = getCurrentMessage()
+        if !message.isEmpty {
+            UserBigramPredictor.shared.recordSentence(message)
+        }
+
         textDocumentProxy.insertText("\n")
         appendToCache("\n")
     }

@@ -24,6 +24,7 @@
 		36541842BBC4F0492CE2D93D /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B4D4A060B6DEAD7331C069 /* AIService.swift */; };
 		36E730DD97DC481644E8A260 /* TranslationBarUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5914F3A42AE7B88757BE34 /* TranslationBarUIView.swift */; };
 		39F425DE319FF7EC19BAAF1B /* LanguageDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43329728DC47741B05F0BAC /* LanguageDetector.swift */; };
+		42B9C649E4B54AC1012A9B9A /* UserBigramPredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C562CBD262CF3CAC4DBB9C5 /* UserBigramPredictor.swift */; };
 		4A094168FC16E07BCC0751DD /* LanguagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221AC1DEE3F8EACFD8DAE7F8 /* LanguagePickerView.swift */; };
 		4E4D7D4A57622ED4DEAC08C7 /* EditingBannerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74293DDC39A483AD825D8F08 /* EditingBannerUIView.swift */; };
 		581E0B63C17B8CB041E11F13 /* WordSuggestionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA82358ACB95AE729A2DBB0 /* WordSuggestionEngine.swift */; };
@@ -66,6 +67,7 @@
 		D251FB80A25BB4F96898E8BA /* KnowledgeBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D957AFB70A055DDBC9B7801 /* KnowledgeBaseView.swift */; };
 		D27B7A3067B8CB1C8C954AF1 /* SuggestionBarUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170B8DCEF59812B13450E22C /* SuggestionBarUIView.swift */; };
 		D74F0255759D5D508CA3781A /* KeyboardTouchSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86A5AA37E35D5794A2858E3 /* KeyboardTouchSurface.swift */; };
+		DC4DCE918BAD8F4FF1E1AA3C /* UserBigramPredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C562CBD262CF3CAC4DBB9C5 /* UserBigramPredictor.swift */; };
 		DE068BAA4CA691F6CAC09E93 /* SharedSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FBAE8BA36FAC2F3312356 /* SharedSettings.swift */; };
 		DE1DD9A69E2F9F5DAC66F7C8 /* PinyinMap.json in Resources */ = {isa = PBXBuildFile; fileRef = F30B6436B0A3C1CC234BB7DF /* PinyinMap.json */; };
 		E332C6AC06D7DE12975A77BC /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B4D4A060B6DEAD7331C069 /* AIService.swift */; };
@@ -124,6 +126,7 @@
 		78FA4B74FAB7074E3E9FAB7B /* UserWordFrequency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserWordFrequency.swift; sourceTree = "<group>"; };
 		79FE9D1FD341E45F113A8270 /* DeepSeekService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepSeekService.swift; sourceTree = "<group>"; };
 		7B5C0C8C4E4CFFC036212804 /* UnifyKeyboard.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = UnifyKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C562CBD262CF3CAC4DBB9C5 /* UserBigramPredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBigramPredictor.swift; sourceTree = "<group>"; };
 		852A7CB20A29BCD7E2EE6753 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
 		89B540381C2D25B16D15B872 /* ClipboardMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardMonitor.swift; sourceTree = "<group>"; };
 		8CA82358ACB95AE729A2DBB0 /* WordSuggestionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSuggestionEngine.swift; sourceTree = "<group>"; };
@@ -267,6 +270,7 @@
 				EDD8452C723FADA805FDFE35 /* CommonPhrases.json */,
 				D6666B99B8C1B933F46F6B70 /* Constants.swift */,
 				F30B6436B0A3C1CC234BB7DF /* PinyinMap.json */,
+				7C562CBD262CF3CAC4DBB9C5 /* UserBigramPredictor.swift */,
 				78FA4B74FAB7074E3E9FAB7B /* UserWordFrequency.swift */,
 				4F89BC7450C77AC3D06194CE /* Models */,
 				3E61F4FC5B5280BB43FD6596 /* Services */,
@@ -432,6 +436,7 @@
 				0C2450945D971A118A6E3D8A /* TranslationPreviewCardUIView.swift in Sources */,
 				CE838F543CA7FF6ED7B7C1B6 /* TranslationResult.swift in Sources */,
 				CAF7CF05574136D4C26BD600 /* UsageTracker.swift in Sources */,
+				DC4DCE918BAD8F4FF1E1AA3C /* UserBigramPredictor.swift in Sources */,
 				59618D514D266AE615F80895 /* UserWordFrequency.swift in Sources */,
 				581E0B63C17B8CB041E11F13 /* WordSuggestionEngine.swift in Sources */,
 			);
@@ -469,6 +474,7 @@
 				65464904A388FF7A3978052F /* UnifyKeyApp.swift in Sources */,
 				16B1B4494D900DED0B81CC5F /* UsageTracker.swift in Sources */,
 				763381DAFA42A52B9091E72B /* UsageView.swift in Sources */,
+				42B9C649E4B54AC1012A9B9A /* UserBigramPredictor.swift in Sources */,
 				161EE427DEB597BB2419B893 /* UserWordFrequency.swift in Sources */,
 				A548138B6CF4DDB425FEB8A6 /* WordSuggestionEngine.swift in Sources */,
 			);
@@ -497,6 +503,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = UnifyKey/Info.plist;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -579,6 +586,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = UnifyKey/Info.plist;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -598,6 +606,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = UnifyKeyboard/Info.plist;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -685,6 +694,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = UnifyKeyboard/Info.plist;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
