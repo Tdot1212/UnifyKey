@@ -188,6 +188,35 @@ struct SetupView: View {
                     }
                     .padding(.vertical, 4)
                 }
+
+                // MARK: - About
+                Section {
+                    Link(destination: URL(string: "https://tdot1212.github.io/UnifyKey/privacy.html")!) {
+                        HStack {
+                            Text("Privacy Policy")
+                            Spacer()
+                            Image(systemName: "arrow.up.forward.app")
+                                .foregroundStyle(.secondary)
+                        }
+                    }
+
+                    Link(destination: URL(string: "https://tdot1212.github.io/UnifyKey/terms.html")!) {
+                        HStack {
+                            Text("Terms of Service")
+                            Spacer()
+                            Image(systemName: "arrow.up.forward.app")
+                                .foregroundStyle(.secondary)
+                        }
+                    }
+
+                    HStack {
+                        Text("Version")
+                        Spacer()
+                        Text("1.0").foregroundStyle(.secondary)
+                    }
+                } header: {
+                    Label("About", systemImage: "info.circle")
+                }
             }
             .navigationTitle("UnifyKey")
             .onAppear {
