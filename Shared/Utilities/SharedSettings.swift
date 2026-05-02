@@ -124,4 +124,13 @@ final class SharedSettings {
         get { keychain.loadBool(key: "hasKeyboardFullAccess") }
         set { keychain.saveBool(key: "hasKeyboardFullAccess", value: newValue) }
     }
+
+    // MARK: - Keychain Migration Flags
+
+    /// Set once the V1 accessibility migration has re-saved the stored API key
+    /// with kSecAttrAccessibleWhenUnlockedThisDeviceOnly. See UnifyKeyApp.init().
+    var keychainAccessibilityMigrationV1: Bool {
+        get { keychain.loadBool(key: "keychainAccessibilityMigrationV1") }
+        set { keychain.saveBool(key: "keychainAccessibilityMigrationV1", value: newValue) }
+    }
 }
