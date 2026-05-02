@@ -674,7 +674,9 @@ class KeyboardViewController: UIInputViewController {
     private func checkClipboard() {
         // Read clipboard — returns nil without Full Access
         guard let clipboardText = UIPasteboard.general.string else {
+            #if DEBUG
             print("[Clipboard] No clipboard text (Full Access needed?)")
+            #endif
             return
         }
         let trimmed = clipboardText.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -682,7 +684,9 @@ class KeyboardViewController: UIInputViewController {
 
         // Don't re-process the same content
         guard trimmed != lastClipboardContent else {
+            #if DEBUG
             print("[Clipboard] Same content, skipping")
+            #endif
             return
         }
 
@@ -690,16 +694,22 @@ class KeyboardViewController: UIInputViewController {
         let detectedCode = LanguageDetector.shared.detectLanguage(trimmed)
         let langCode = detectedCode?.components(separatedBy: "-").first ?? ""
         let userLangCode = SharedSettings.shared.selectedLanguage.rawValue
+        #if DEBUG
         print("[Clipboard] detected=\(langCode) user=\(userLangCode) text=\(trimmed.prefix(30))")
+        #endif
 
         // Only translate if it's a DIFFERENT language than user's native
         guard !langCode.isEmpty, langCode != userLangCode else {
+            #if DEBUG
             print("[Clipboard] Same language or undetected, skipping")
+            #endif
             return
         }
 
         lastClipboardContent = trimmed
+        #if DEBUG
         print("[Clipboard] Starting translation...")
+        #endif
 
         // Set target language to the sender's language (so replies go back in their language)
         if let detectedLang = SupportedLanguage(rawValue: langCode) {
@@ -772,9 +782,13 @@ class KeyboardViewController: UIInputViewController {
     }
 
     private func generateSmartReplies(translatedMessage: String, targetLang: SupportedLanguage) {
+        #if DEBUG
         print("[SmartReplies] Generating for: \(translatedMessage.prefix(40)) → \(targetLang.rawValue)")
+        #endif
         guard let service = AIServiceFactory.createCurrentService() else {
+            #if DEBUG
             print("[SmartReplies] No AI service available")
+            #endif
             return
         }
 
@@ -824,20 +838,28 @@ class KeyboardViewController: UIInputViewController {
                 }
 
                 await MainActor.run {
+                    #if DEBUG
                     print("[SmartReplies] Parsed \(parsed.count) replies")
+                    #endif
                     if parsed.count >= 2 {
                         self.smartReplies = Array(parsed.prefix(3))
                         for r in self.smartReplies {
+                            #if DEBUG
                             print("[SmartReplies]   \(r.targetText) | \(r.userText)")
+                            #endif
                         }
                         self.showSmartReplyPopup()
                     } else {
+                        #if DEBUG
                         print("[SmartReplies] Not enough replies, raw: \(rawResponse.prefix(100))")
+                        #endif
                         self.showPlaceholderSuggestions()
                     }
                 }
             } catch {
+                #if DEBUG
                 print("[SmartReplies] Error: \(error)")
+                #endif
                 await MainActor.run { self.showPlaceholderSuggestions() }
             }
         }
@@ -878,7 +900,9 @@ class KeyboardViewController: UIInputViewController {
 
     private func showPreviewCard() {
         guard previewCard == nil else { return }
+        #if DEBUG
         print("DEBUG Preview: original='\(currentOriginalText)' translated='\(currentTranslatedText)'")
+        #endif
         guard !currentTranslatedText.isEmpty else { return }
 
         let card = TranslationPreviewCardUIView()
@@ -909,6 +933,10 @@ class KeyboardViewController: UIInputViewController {
             let settings = SharedSettings.shared
             let targetLang = self.resolveTargetLanguage()
 
+            // Best-effort back-translation. Failure is acceptable: the primary
+            // translation already succeeded; this is purely a verification step
+            // so the user can see what their message round-trips back to. No UI
+            // error needed if it fails.
             let backResult = try? await service.translate(
                 text: self.currentTranslatedText,
                 from: targetLang.fullLanguageName,
@@ -1143,7 +1171,10 @@ class KeyboardViewController: UIInputViewController {
                     }
                 }
 
-                // Call 2: Back-translate so user can understand the feeling
+                // Call 2: Back-translate so user can understand the feeling.
+                // Best-effort — failure here doesn't surface as a UI error; the
+                // primary translation already succeeded and the back-translation
+                // is purely informational.
                 let backResult = try? await service.translate(
                     text: result.translation,
                     from: targetLang.fullLanguageName,
@@ -1530,7 +1561,9 @@ class KeyboardViewController: UIInputViewController {
     // MARK: - Smart Reply Popup
 
     private func showSmartReplyPopup() {
+        #if DEBUG
         print("[SmartReplyPopup] Showing popup with \(smartReplies.count) replies, bounds=\(view.bounds)")
+        #endif
         smartReplyPopup?.removeFromSuperview()
         showPlaceholderSuggestions()
 
