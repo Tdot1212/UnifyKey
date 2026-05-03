@@ -6,7 +6,7 @@ This folder hosts the privacy policy and terms of service for UnifyKey.
 
 Once pushed to `https://github.com/Tdot1212/UnifyKey`, enable GitHub Pages in repo Settings → Pages:
 - Source: Deploy from branch `main`
-- Folder: `/legal`
+- Folder: `/docs`
 - The site will be live at `https://tdot1212.github.io/UnifyKey/`
 
 URLs to use in App Store Connect:
