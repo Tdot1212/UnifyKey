@@ -5,6 +5,7 @@ final class WordSuggestionEngine {
     static let shared = WordSuggestionEngine()
 
     private let textChecker = UITextChecker()
+    private let languageRecognizer = NLLanguageRecognizer()
     private var suggestionCache: [String: [WordSuggestion]] = [:]
     private var cacheKeys: [String] = []
     private let maxCacheSize = 50
@@ -23,9 +24,9 @@ final class WordSuggestionEngine {
     // MARK: - Detect typing language
 
     func detectTypingLanguage(_ text: String) -> String {
-        let recognizer = NLLanguageRecognizer()
-        recognizer.processString(text)
-        guard let lang = recognizer.dominantLanguage else { return "en" }
+        languageRecognizer.reset()
+        languageRecognizer.processString(text)
+        guard let lang = languageRecognizer.dominantLanguage else { return "en" }
         return lang.rawValue
     }
 

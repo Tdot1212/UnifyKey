@@ -16,6 +16,10 @@ class KeyboardViewController: UIInputViewController {
     private let keyHaptic = UIImpactFeedbackGenerator(style: .light)
     private var lastHapticTime: CFAbsoluteTime = 0
     private let hapticThrottleMs: CFAbsoluteTime = 0.03  // 30ms minimum between haptics
+
+    // Cached settings — avoids keychain IPC on every keystroke
+    private var cachedHapticEnabled: Bool = true
+    private var lastClipboardCheckTime: CFAbsoluteTime = 0
     private var translationTask: Task<Void, Never>?
     private var currentTargetLanguage: SupportedLanguage?
     private var heightConstraint: NSLayoutConstraint?
@@ -70,10 +74,11 @@ class KeyboardViewController: UIInputViewController {
         // Record Full Access state so the main app's settings can warn the
         // user — UIFeedbackGenerator silently no-ops without it.
         SharedSettings.shared.hasKeyboardFullAccess = self.hasFullAccess
+        cachedHapticEnabled = SharedSettings.shared.hapticFeedbackEnabled
         buildKeyboard()
 
-        // Periodic sync every 2 seconds to keep cache consistent with proxy
-        textSyncTimer = Timer.scheduledTimer(withTimeInterval: 2.0, repeats: true) { [weak self] _ in
+        // Periodic sync to keep cache consistent with proxy (e.g. autocorrect, dictation)
+        textSyncTimer = Timer.scheduledTimer(withTimeInterval: 5.0, repeats: true) { [weak self] _ in
             guard let self = self else { return }
             self.localTextCache = String((self.textDocumentProxy.documentContextBeforeInput ?? "").suffix(200))
         }
@@ -112,9 +117,13 @@ class KeyboardViewController: UIInputViewController {
         super.textDidChange(textInput)
         // Sync local cache from proxy (catches external changes, autocorrect, etc.)
         localTextCache = String((textDocumentProxy.documentContextBeforeInput ?? "").suffix(200))
-        // Recheck clipboard when user switches text fields
+        // Throttle clipboard checks to at most once per 3 seconds
         if !isClipboardTranslation {
-            checkClipboard()
+            let now = CFAbsoluteTimeGetCurrent()
+            if now - lastClipboardCheckTime > 3.0 {
+                lastClipboardCheckTime = now
+                checkClipboard()
+            }
         }
     }
 
@@ -252,18 +261,20 @@ class KeyboardViewController: UIInputViewController {
             guard let self = self else { return }
             var results: [WordSuggestion] = []
 
-            if before.hasSuffix(" ") || before.hasSuffix("\n") {
-                let userPredictions = UserBigramPredictor.shared.predict(after: before)
-                let staticPredictions = NextWordPredictor.shared.predict(after: before)
-                var seen = Set<String>()
-                var merged: [String] = []
-                for p in userPredictions + staticPredictions {
-                    if !seen.contains(p) {
-                        merged.append(p)
-                        seen.insert(p)
-                    }
+            // Compute predictions once, reuse across fallback paths
+            let userPredictions = UserBigramPredictor.shared.predict(after: before)
+            let staticPredictions = NextWordPredictor.shared.predict(after: before)
+            var seen = Set<String>()
+            var merged: [String] = []
+            for p in userPredictions + staticPredictions {
+                if !seen.contains(p) {
+                    merged.append(p)
+                    seen.insert(p)
                 }
-                let predictions = Array(merged.prefix(3))
+            }
+            let predictions = Array(merged.prefix(3))
+
+            if before.hasSuffix(" ") || before.hasSuffix("\n") {
                 if !predictions.isEmpty {
                     results = predictions.map { WordSuggestion(word: $0, isAutocorrect: false) }
                 }
@@ -275,17 +286,6 @@ class KeyboardViewController: UIInputViewController {
             }
 
             if results.isEmpty {
-                let userPredictions = UserBigramPredictor.shared.predict(after: before)
-                let staticPredictions = NextWordPredictor.shared.predict(after: before)
-                var seen = Set<String>()
-                var merged: [String] = []
-                for p in userPredictions + staticPredictions {
-                    if !seen.contains(p) {
-                        merged.append(p)
-                        seen.insert(p)
-                    }
-                }
-                let predictions = Array(merged.prefix(3))
                 results = predictions.map { WordSuggestion(word: $0, isAutocorrect: false) }
             }
 
@@ -1659,7 +1659,7 @@ extension KeyboardViewController: KeyboardTouchSurfaceDelegate {
     // Throttled, opt-out per-keystroke haptic. Must stay on the main thread —
     // UIFeedbackGenerator is not thread-safe.
     private func fireKeyHaptic(intensity: CGFloat = 0.4) {
-        guard SharedSettings.shared.hapticFeedbackEnabled else { return }
+        guard cachedHapticEnabled else { return }
 
         let now = CFAbsoluteTimeGetCurrent()
         guard now - lastHapticTime > hapticThrottleMs else { return }
