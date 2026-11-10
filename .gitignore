@@ -74,3 +74,9 @@ DevSecrets.swift
 
 # Generated
 UNIFYKEY_AUDIT_*.md
+
+# Local signing material
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.pfx
